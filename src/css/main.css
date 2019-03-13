@@ -91,9 +91,31 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .message-section{
-    width: 304px;
+
+  .message-form{
+    padding: 19px 0 0 0;
+    width: 375px;
     margin: 0;
+  }
+
+  .message-section{
+    width: 352px;
+  }
+
+  .personal-info-section{
+    width: 352px;
     flex-direction: column;
+  }
+
+  .button-section{
+    width: 352px;
+  }
+
+  .input-group__text-area{
+    width: 328px;
+  }
+
+  .input-group__text{
+    width: 100%;
   }
 }
