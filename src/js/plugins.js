@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Avoid `console` errors in browsers that lack a console.
 (function() {
   var method;
@@ -22,3 +23,24 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+(function($) {
+  $.fn.limitLettersMessage = function(options) {
+    let settings = $.extend({
+      elementToShowMessage : ''
+    }, options);
+    const maxLengthLimit = this.attr('data-max-length-message-number');
+    const {elementToShowMessage} = settings;
+    const processMessage = () => {
+      if(elementToShowMessage) {
+        const currentLettersLength = this.val().length;
+        const messageToShow = ((currentLettersLength)  < maxLengthLimit) ?
+          (maxLengthLimit - currentLettersLength) + ' characters left':
+          'No more characters left';
+        $(elementToShowMessage).html(messageToShow);
+      }
+    }
+    this.change(processMessage);
+    this.focus(processMessage);
+    this.focusout(processMessage);
+  };
+}(jQuery));

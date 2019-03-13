@@ -35,11 +35,13 @@
     </section>
     <section class="message-section">
       <div class="input-group">
-        <label for="user-message" class="input-group__label">Message</label> <span class="input-group__message">60 characters left</span>
+        <label for="user-message" class="input-group__label">Message</label> <span class="input-group__message"></span>
         <textarea
           id="user-message"
           class="input-group__text-area"
           placeholder="Type your message here"
+          data-max-length-message-number="60"
+          maxlength="60"
         ></textarea>
       </div>
     </section>
