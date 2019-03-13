@@ -23,7 +23,31 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="message-form">
+    <section class="personal-info-section">
+      <div class="input-group">
+        <label for="user-name" class="input-group__label">Name</label>
+        <input id="user-name" class="input-group__text" type="text" required>
+      </div>
+      <div class="input-group">
+        <label for="user-password" class="input-group__label">Email</label>
+        <input id="user-password" class="input-group__text" type="email" required>
+      </div>
+    </section>
+    <section class="message-section">
+      <div class="input-group">
+        <label for="user-message" class="input-group__label">Message</label> <span class="input-group__message">60 characters left</span>
+        <textarea
+          id="user-message"
+          class="input-group__text-area"
+          placeholder="Type your message here"
+        ></textarea>
+      </div>
+    </section>
+    <section class="button-section">
+      <button class="button--primary" type="submit">Send</button>
+    </section>
+  </div>
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
