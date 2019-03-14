@@ -48,7 +48,7 @@
   "license": "MIT",
   "name": "html5-boilerplate",
   "scripts": {
-    "start": "browser-sync start -s --files 'dist/**/*.(js|css|html)' --ss 'dist' --port 8080 --reload-debounce 500",
+    "start": "browser-sync start -s --no-ui --files 'dist/**/*.(js|css|html)' --ss 'dist' --port 8080 --reload-debounce 500",
     "build": "gulp build",
     "test": "gulp archive && mocha --require babel-core/register --reporter spec --timeout 5000"
   },
