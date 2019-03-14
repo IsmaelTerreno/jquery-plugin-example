@@ -1,6 +1,6 @@
 # LeoList frontend test task
 ## Description
-Create simple form with 3 input elements: name, email and message. Download [sketch file](https://github.com/iPresence/frontend_test/raw/master/form.sketch)
+Create simple form with 3 input elements: name, email and message.
 
 Create jquery plugin for message input with characters limit that displays how many characters user can type in.
 
