@@ -89,34 +89,37 @@
   font-weight: 100;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
   .message-form{
     padding: 19px 0 0 0;
-    width: 375px;
+    width: 100%;
+    max-width: 600px;
     margin: 0;
   }
 
   .message-section{
-    width: 352px;
+    width: 323px;
   }
 
   .personal-info-section{
-    width: 352px;
+    width: 323px;
     flex-direction: column;
   }
 
   .button-section{
-    width: 352px;
+    width: 323px;
+    padding-right: 8px;
   }
 
   .input-group__text-area{
-    width: 328px;
+    width: 298px;
   }
 
   .input-group__text{
-    width: 100%;
+    width: 298px;
     padding: 10px;
   }
+
 }

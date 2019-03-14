@@ -40,6 +40,8 @@
       }
     }
     this.change(processMessage);
+    this.keyup(processMessage);
+    this.keydown(processMessage);
     this.focus(processMessage);
     this.focusout(processMessage);
   };
