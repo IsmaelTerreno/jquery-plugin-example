@@ -111,6 +111,7 @@
   .button-section{
     width: 323px;
     padding-right: 8px;
+    justify-content: center;
   }
 
   .input-group__text-area{
