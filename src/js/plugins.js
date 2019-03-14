@@ -38,7 +38,7 @@
           'No more characters left';
         $(elementToShowMessage).html(messageToShow);
       }
-    }
+    };
     this.change(processMessage);
     this.keyup(processMessage);
     this.keydown(processMessage);
