@@ -17,5 +17,5 @@ Create jquery plugin for message input with characters limit that displays how m
 ## How to run the project:
 
 1. Run the "npm run build" command to create the "dist" folder with all the compiled project.
-2. Open the "index.html" file in the folder "/dist/".
+2. Open the "index.html" file in the folder "/dist/" using your favourite web browser.
 
