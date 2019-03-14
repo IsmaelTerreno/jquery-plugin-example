@@ -33,7 +33,7 @@
     const processMessage = () => {
       if(elementToShowMessage) {
         const currentLettersLength = this.val().length;
-        const messageToShow = ((currentLettersLength)  < maxLengthLimit) ?
+        const messageToShow = (currentLettersLength  < maxLengthLimit) ?
           (maxLengthLimit - currentLettersLength) + ' characters left':
           'No more characters left';
         $(elementToShowMessage).html(messageToShow);
