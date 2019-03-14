@@ -13,3 +13,9 @@ Create jquery plugin for message input with characters limit that displays how m
 - Form layout on mobile: each field on separate row
 - Max length of message field should be defined in data-* attribute
 - Use ES5 syntax
+
+## How to run the project:
+
+1. Run the "npm run build" command to create the "dist" folder with all the compiled project.
+2. Open the "index.html" file in the folder "/dist/".
+
